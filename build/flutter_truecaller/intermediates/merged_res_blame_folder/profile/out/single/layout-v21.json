@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "dipinarora9.flutter_truecaller-merged_res-15:/layout-v21/notification_template_icon_group.xml",
+        "source": "dipinarora9.flutter_truecaller-core-1.6.0-0:/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "dipinarora9.flutter_truecaller-merged_res-15:/layout-v21/com_truecaller_truebutton.xml",
+        "source": "dipinarora9.flutter_truecaller-jetified-truecaller-sdk-2.4.0-4:/layout-v21/com_truecaller_truebutton.xml"
+    },
+    {
+        "merged": "dipinarora9.flutter_truecaller-merged_res-15:/layout-v21/notification_action.xml",
+        "source": "dipinarora9.flutter_truecaller-core-1.6.0-0:/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "dipinarora9.flutter_truecaller-merged_res-15:/layout-v21/notification_template_custom_big.xml",
+        "source": "dipinarora9.flutter_truecaller-core-1.6.0-0:/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "dipinarora9.flutter_truecaller-merged_res-15:/layout-v21/notification_action_tombstone.xml",
+        "source": "dipinarora9.flutter_truecaller-core-1.6.0-0:/layout-v21/notification_action_tombstone.xml"
+    }
+]

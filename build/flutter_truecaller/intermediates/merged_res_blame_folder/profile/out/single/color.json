@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "dipinarora9.flutter_truecaller-merged_res-15:/color/common_google_signin_btn_text_dark.xml",
+        "source": "dipinarora9.flutter_truecaller-jetified-play-services-base-17.1.0-2:/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "dipinarora9.flutter_truecaller-merged_res-15:/color/common_google_signin_btn_text_light.xml",
+        "source": "dipinarora9.flutter_truecaller-jetified-play-services-base-17.1.0-2:/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "dipinarora9.flutter_truecaller-merged_res-15:/color/common_google_signin_btn_tint.xml",
+        "source": "dipinarora9.flutter_truecaller-jetified-play-services-base-17.1.0-2:/color/common_google_signin_btn_tint.xml"
+    }
+]

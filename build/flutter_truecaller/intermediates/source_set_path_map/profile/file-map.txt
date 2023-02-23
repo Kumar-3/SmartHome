@@ -1,0 +1,17 @@
+dipinarora9.flutter_truecaller-core-1.6.0-0 C:\Users\pyius\.gradle\caches\transforms-3\1141b72fb8be4e566e7814849b1aa3a2\transformed\core-1.6.0\res
+dipinarora9.flutter_truecaller-jetified-window-1.0.0-beta04-1 C:\Users\pyius\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\res
+dipinarora9.flutter_truecaller-jetified-play-services-base-17.1.0-2 C:\Users\pyius\.gradle\caches\transforms-3\87bf304c2225a9e8d147333df4df4087\transformed\jetified-play-services-base-17.1.0\res
+dipinarora9.flutter_truecaller-coordinatorlayout-1.0.0-3 C:\Users\pyius\.gradle\caches\transforms-3\9a16fab522f969c3bed425ffb75ad872\transformed\coordinatorlayout-1.0.0\res
+dipinarora9.flutter_truecaller-jetified-truecaller-sdk-2.4.0-4 C:\Users\pyius\.gradle\caches\transforms-3\9deb8133c105c49b8eed4d4c6beb78a8\transformed\jetified-truecaller-sdk-2.4.0\res
+dipinarora9.flutter_truecaller-media-1.0.0-5 C:\Users\pyius\.gradle\caches\transforms-3\a4874a1c1fd763c2bb3cb8d3a455804d\transformed\media-1.0.0\res
+dipinarora9.flutter_truecaller-jetified-annotation-experimental-1.1.0-6 C:\Users\pyius\.gradle\caches\transforms-3\a6362f1fb79a6245a27920bb99ff99c3\transformed\jetified-annotation-experimental-1.1.0\res
+dipinarora9.flutter_truecaller-jetified-play-services-basement-17.1.0-7 C:\Users\pyius\.gradle\caches\transforms-3\ce74e6ee361bf6bf45ba5b7b64afc7b0\transformed\jetified-play-services-basement-17.1.0\res
+dipinarora9.flutter_truecaller-jetified-window-java-1.0.0-beta04-8 C:\Users\pyius\.gradle\caches\transforms-3\ed438543a8e9ffa856a2b095c92f0ea3\transformed\jetified-window-java-1.0.0-beta04\res
+dipinarora9.flutter_truecaller-main-9 C:\Users\pyius\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_truecaller-0.3.1\android\src\main\res
+dipinarora9.flutter_truecaller-profile-10 C:\Users\pyius\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_truecaller-0.3.1\android\src\profile\res
+dipinarora9.flutter_truecaller-pngs-11 C:\Users\pyius\Desktop\kumarproject\smarthome\smarthome\build\flutter_truecaller\generated\res\pngs\profile
+dipinarora9.flutter_truecaller-resValues-12 C:\Users\pyius\Desktop\kumarproject\smarthome\smarthome\build\flutter_truecaller\generated\res\resValues\profile
+dipinarora9.flutter_truecaller-rs-13 C:\Users\pyius\Desktop\kumarproject\smarthome\smarthome\build\flutter_truecaller\generated\res\rs\profile
+dipinarora9.flutter_truecaller-mergeProfileResources-14 C:\Users\pyius\Desktop\kumarproject\smarthome\smarthome\build\flutter_truecaller\intermediates\incremental\profile\mergeProfileResources\merged.dir
+dipinarora9.flutter_truecaller-mergeProfileResources-15 C:\Users\pyius\Desktop\kumarproject\smarthome\smarthome\build\flutter_truecaller\intermediates\incremental\profile\mergeProfileResources\stripped.dir
+dipinarora9.flutter_truecaller-merged_res-16 C:\Users\pyius\Desktop\kumarproject\smarthome\smarthome\build\flutter_truecaller\intermediates\merged_res\profile

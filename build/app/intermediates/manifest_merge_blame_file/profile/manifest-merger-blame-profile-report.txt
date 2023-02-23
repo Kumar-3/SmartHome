@@ -1,0 +1,235 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.smarthome"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Users\pyius\Desktop\kumarproject\smarthome\smarthome\android\app\src\main\AndroidManifest.xml:3:5-67
+15-->C:\Users\pyius\Desktop\kumarproject\smarthome\smarthome\android\app\src\main\AndroidManifest.xml:3:22-64
+16    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+16-->C:\Users\pyius\Desktop\kumarproject\smarthome\smarthome\android\app\src\main\AndroidManifest.xml:4:5-75
+16-->C:\Users\pyius\Desktop\kumarproject\smarthome\smarthome\android\app\src\main\AndroidManifest.xml:4:22-72
+17    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+17-->C:\Users\pyius\Desktop\kumarproject\smarthome\smarthome\android\app\src\main\AndroidManifest.xml:5:5-72
+17-->C:\Users\pyius\Desktop\kumarproject\smarthome\smarthome\android\app\src\main\AndroidManifest.xml:5:22-69
+18    <uses-permission android:name="android.permission.ANSWER_PHONE_CALLS" />
+18-->C:\Users\pyius\Desktop\kumarproject\smarthome\smarthome\android\app\src\main\AndroidManifest.xml:6:5-77
+18-->C:\Users\pyius\Desktop\kumarproject\smarthome\smarthome\android\app\src\main\AndroidManifest.xml:6:22-74
+19    <uses-permission android:name="android.permission.CALL_PHONE" />
+19-->C:\Users\pyius\Desktop\kumarproject\smarthome\smarthome\android\app\src\main\AndroidManifest.xml:7:5-69
+19-->C:\Users\pyius\Desktop\kumarproject\smarthome\smarthome\android\app\src\main\AndroidManifest.xml:7:22-66
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\pyius\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:24:5-79
+20-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\pyius\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:24:22-76
+21    <uses-permission android:name="com.truecaller.permission.sdk.internal.read_account_state" />
+21-->[com.truecaller.android.sdk:truecaller-sdk:2.7.0] C:\Users\pyius\.gradle\caches\transforms-3\8aa69c7b0f05f503ad8e80f3a6f8a9ab\transformed\jetified-truecaller-sdk-2.7.0\AndroidManifest.xml:38:5-97
+21-->[com.truecaller.android.sdk:truecaller-sdk:2.7.0] C:\Users\pyius\.gradle\caches\transforms-3\8aa69c7b0f05f503ad8e80f3a6f8a9ab\transformed\jetified-truecaller-sdk-2.7.0\AndroidManifest.xml:38:22-94
+22    <!--
+23         To resolve package visibility issue on Android 11 & above with targetSdkVersion >=30, <queries> element
+24         needs to be added with the package name
+25    -->
+26    <queries>
+26-->[com.truecaller.android.sdk:truecaller-sdk:2.7.0] C:\Users\pyius\.gradle\caches\transforms-3\8aa69c7b0f05f503ad8e80f3a6f8a9ab\transformed\jetified-truecaller-sdk-2.7.0\AndroidManifest.xml:44:5-47:15
+27        <package android:name="com.truecaller" />
+27-->[com.truecaller.android.sdk:truecaller-sdk:2.7.0] C:\Users\pyius\.gradle\caches\transforms-3\8aa69c7b0f05f503ad8e80f3a6f8a9ab\transformed\jetified-truecaller-sdk-2.7.0\AndroidManifest.xml:45:9-50
+27-->[com.truecaller.android.sdk:truecaller-sdk:2.7.0] C:\Users\pyius\.gradle\caches\transforms-3\8aa69c7b0f05f503ad8e80f3a6f8a9ab\transformed\jetified-truecaller-sdk-2.7.0\AndroidManifest.xml:45:18-47
+28        <package android:name="com.truecaller.debug" />
+28-->[com.truecaller.android.sdk:truecaller-sdk:2.7.0] C:\Users\pyius\.gradle\caches\transforms-3\8aa69c7b0f05f503ad8e80f3a6f8a9ab\transformed\jetified-truecaller-sdk-2.7.0\AndroidManifest.xml:46:9-56
+28-->[com.truecaller.android.sdk:truecaller-sdk:2.7.0] C:\Users\pyius\.gradle\caches\transforms-3\8aa69c7b0f05f503ad8e80f3a6f8a9ab\transformed\jetified-truecaller-sdk-2.7.0\AndroidManifest.xml:46:18-53
+29    </queries>
+30
+31    <application
+32        android:name="android.app.Application"
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.6.0] C:\Users\pyius\.gradle\caches\transforms-3\1141b72fb8be4e566e7814849b1aa3a2\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+34        android:debuggable="true"
+35        android:icon="@mipmap/ic_launcher"
+36        android:label="Smarthome" >
+37        <activity
+38            android:name="com.example.smarthome.MainActivity"
+39            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+40            android:exported="true"
+41            android:hardwareAccelerated="true"
+42            android:launchMode="singleTop"
+43            android:theme="@style/LaunchTheme"
+44            android:windowSoftInputMode="adjustResize" >
+45
+46            <!--
+47                 Specifies an Android theme to apply to this Activity as soon as
+48                 the Android process has started. This theme is visible to the user
+49                 while the Flutter UI initializes. After that, this theme continues
+50                 to determine the Window background behind the Flutter UI.
+51            -->
+52            <meta-data
+53                android:name="io.flutter.embedding.android.NormalTheme"
+54                android:resource="@style/NormalTheme" />
+55
+56            <intent-filter>
+57                <action android:name="android.intent.action.MAIN" />
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+60            </intent-filter>
+61        </activity>
+62        <!--
+63             Don't delete the meta-data below.
+64             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+65        -->
+66        <meta-data
+67            android:name="flutterEmbedding"
+68            android:value="2" />
+69        <meta-data
+70            android:name="com.truecaller.android.sdk.PartnerKey"
+71            android:value="ViYKea10439a08a864c22830690a1e51dc2a7" />
+72
+73        <service
+73-->[:firebase_auth] C:\Users\pyius\Desktop\kumarproject\smarthome\smarthome\build\firebase_auth\intermediates\merged_manifest\profile\AndroidManifest.xml:10:9-14:19
+74            android:name="com.google.firebase.components.ComponentDiscoveryService"
+74-->[:firebase_auth] C:\Users\pyius\Desktop\kumarproject\smarthome\smarthome\build\firebase_auth\intermediates\merged_manifest\profile\AndroidManifest.xml:10:18-89
+75            android:directBootAware="true"
+75-->[com.google.firebase:firebase-common:20.3.0] C:\Users\pyius\.gradle\caches\transforms-3\dbca14ae8831d3272c2dc3ee92f824c5\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:34:13-43
+76            android:exported="false" >
+76-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\pyius\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:66:13-37
+77            <meta-data
+77-->[:firebase_auth] C:\Users\pyius\Desktop\kumarproject\smarthome\smarthome\build\firebase_auth\intermediates\merged_manifest\profile\AndroidManifest.xml:11:13-13:85
+78                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+78-->[:firebase_auth] C:\Users\pyius\Desktop\kumarproject\smarthome\smarthome\build\firebase_auth\intermediates\merged_manifest\profile\AndroidManifest.xml:12:17-124
+79                android:value="com.google.firebase.components.ComponentRegistrar" />
+79-->[:firebase_auth] C:\Users\pyius\Desktop\kumarproject\smarthome\smarthome\build\firebase_auth\intermediates\merged_manifest\profile\AndroidManifest.xml:13:17-82
+80            <meta-data
+80-->[:firebase_core] C:\Users\pyius\Desktop\kumarproject\smarthome\smarthome\build\firebase_core\intermediates\merged_manifest\profile\AndroidManifest.xml:11:13-13:85
+81                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+81-->[:firebase_core] C:\Users\pyius\Desktop\kumarproject\smarthome\smarthome\build\firebase_core\intermediates\merged_manifest\profile\AndroidManifest.xml:12:17-124
+82                android:value="com.google.firebase.components.ComponentRegistrar" />
+82-->[:firebase_core] C:\Users\pyius\Desktop\kumarproject\smarthome\smarthome\build\firebase_core\intermediates\merged_manifest\profile\AndroidManifest.xml:13:17-82
+83            <meta-data
+83-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\pyius\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:67:13-69:85
+84                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+84-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\pyius\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:68:17-109
+85                android:value="com.google.firebase.components.ComponentRegistrar" />
+85-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\pyius\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:69:17-82
+86        </service>
+87
+88        <uses-library
+88-->[androidx.window:window:1.0.0-beta04] C:\Users\pyius\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+89            android:name="androidx.window.extensions"
+89-->[androidx.window:window:1.0.0-beta04] C:\Users\pyius\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+90            android:required="false" />
+90-->[androidx.window:window:1.0.0-beta04] C:\Users\pyius\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+91        <uses-library
+91-->[androidx.window:window:1.0.0-beta04] C:\Users\pyius\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+92            android:name="androidx.window.sidecar"
+92-->[androidx.window:window:1.0.0-beta04] C:\Users\pyius\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+93            android:required="false" />
+93-->[androidx.window:window:1.0.0-beta04] C:\Users\pyius\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+94
+95        <activity
+95-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\pyius\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:27:9-44:20
+96            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+96-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\pyius\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:28:13-80
+97            android:excludeFromRecents="true"
+97-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\pyius\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:29:13-46
+98            android:exported="true"
+98-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\pyius\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:30:13-36
+99            android:launchMode="singleTask"
+99-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\pyius\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:31:13-44
+100            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+100-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\pyius\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:32:13-72
+101            <intent-filter>
+101-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\pyius\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:33:13-43:29
+102                <action android:name="android.intent.action.VIEW" />
+102-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\pyius\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
+102-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\pyius\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
+103
+104                <category android:name="android.intent.category.DEFAULT" />
+104-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\pyius\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:36:17-76
+104-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\pyius\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:36:27-73
+105                <category android:name="android.intent.category.BROWSABLE" />
+105-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\pyius\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
+105-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\pyius\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
+106
+107                <data
+107-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\pyius\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:39:17-42:51
+108                    android:host="firebase.auth"
+108-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\pyius\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:40:21-49
+109                    android:path="/"
+109-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\pyius\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:41:21-37
+110                    android:scheme="genericidp" />
+110-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\pyius\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:42:21-48
+111            </intent-filter>
+112        </activity>
+113        <activity
+113-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\pyius\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:45:9-62:20
+114            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+114-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\pyius\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:46:13-79
+115            android:excludeFromRecents="true"
+115-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\pyius\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:47:13-46
+116            android:exported="true"
+116-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\pyius\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:48:13-36
+117            android:launchMode="singleTask"
+117-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\pyius\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:49:13-44
+118            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+118-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\pyius\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:50:13-72
+119            <intent-filter>
+119-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\pyius\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:51:13-61:29
+120                <action android:name="android.intent.action.VIEW" />
+120-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\pyius\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
+120-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\pyius\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
+121
+122                <category android:name="android.intent.category.DEFAULT" />
+122-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\pyius\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:36:17-76
+122-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\pyius\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:36:27-73
+123                <category android:name="android.intent.category.BROWSABLE" />
+123-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\pyius\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
+123-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\pyius\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
+124
+125                <data
+125-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\pyius\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:39:17-42:51
+126                    android:host="firebase.auth"
+126-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\pyius\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:40:21-49
+127                    android:path="/"
+127-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\pyius\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:41:21-37
+128                    android:scheme="recaptcha" />
+128-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\pyius\.gradle\caches\transforms-3\4369bea40c5772abad7c990d8bfac295\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:42:21-48
+129            </intent-filter>
+130        </activity>
+131
+132        <provider
+132-->[com.google.firebase:firebase-common:20.3.0] C:\Users\pyius\.gradle\caches\transforms-3\dbca14ae8831d3272c2dc3ee92f824c5\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:25:9-30:39
+133            android:name="com.google.firebase.provider.FirebaseInitProvider"
+133-->[com.google.firebase:firebase-common:20.3.0] C:\Users\pyius\.gradle\caches\transforms-3\dbca14ae8831d3272c2dc3ee92f824c5\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:26:13-77
+134            android:authorities="com.example.smarthome.firebaseinitprovider"
+134-->[com.google.firebase:firebase-common:20.3.0] C:\Users\pyius\.gradle\caches\transforms-3\dbca14ae8831d3272c2dc3ee92f824c5\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:27:13-72
+135            android:directBootAware="true"
+135-->[com.google.firebase:firebase-common:20.3.0] C:\Users\pyius\.gradle\caches\transforms-3\dbca14ae8831d3272c2dc3ee92f824c5\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:28:13-43
+136            android:exported="false"
+136-->[com.google.firebase:firebase-common:20.3.0] C:\Users\pyius\.gradle\caches\transforms-3\dbca14ae8831d3272c2dc3ee92f824c5\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:29:13-37
+137            android:initOrder="100" />
+137-->[com.google.firebase:firebase-common:20.3.0] C:\Users\pyius\.gradle\caches\transforms-3\dbca14ae8831d3272c2dc3ee92f824c5\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:30:13-36
+138
+139        <activity
+139-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\pyius\.gradle\caches\transforms-3\87bf304c2225a9e8d147333df4df4087\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+140            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+140-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\pyius\.gradle\caches\transforms-3\87bf304c2225a9e8d147333df4df4087\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+141            android:exported="false"
+141-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\pyius\.gradle\caches\transforms-3\87bf304c2225a9e8d147333df4df4087\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+142            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+142-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\pyius\.gradle\caches\transforms-3\87bf304c2225a9e8d147333df4df4087\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+143
+144        <meta-data
+144-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\pyius\.gradle\caches\transforms-3\ad3fb7e0e58165c0e3c87f8f0d79631f\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+145            android:name="com.google.android.gms.version"
+145-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\pyius\.gradle\caches\transforms-3\ad3fb7e0e58165c0e3c87f8f0d79631f\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+146            android:value="@integer/google_play_services_version" />
+146-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\pyius\.gradle\caches\transforms-3\ad3fb7e0e58165c0e3c87f8f0d79631f\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+147    </application>
+148
+149</manifest>

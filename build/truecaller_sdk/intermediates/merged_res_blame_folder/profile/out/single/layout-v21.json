@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.truecallersdk.truecaller_sdk-merged_res-13:/layout-v21/notification_action.xml",
+        "source": "com.truecallersdk.truecaller_sdk-core-1.6.0-0:/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "com.truecallersdk.truecaller_sdk-merged_res-13:/layout-v21/notification_template_icon_group.xml",
+        "source": "com.truecallersdk.truecaller_sdk-core-1.6.0-0:/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "com.truecallersdk.truecaller_sdk-merged_res-13:/layout-v21/notification_action_tombstone.xml",
+        "source": "com.truecallersdk.truecaller_sdk-core-1.6.0-0:/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "com.truecallersdk.truecaller_sdk-merged_res-13:/layout-v21/notification_template_custom_big.xml",
+        "source": "com.truecallersdk.truecaller_sdk-core-1.6.0-0:/layout-v21/notification_template_custom_big.xml"
+    }
+]

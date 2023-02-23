@@ -1,0 +1,15 @@
+com.truecallersdk.truecaller_sdk-core-1.6.0-0 C:\Users\pyius\.gradle\caches\transforms-3\1141b72fb8be4e566e7814849b1aa3a2\transformed\core-1.6.0\res
+com.truecallersdk.truecaller_sdk-jetified-window-1.0.0-beta04-1 C:\Users\pyius\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\res
+com.truecallersdk.truecaller_sdk-jetified-play-services-base-17.1.0-2 C:\Users\pyius\.gradle\caches\transforms-3\87bf304c2225a9e8d147333df4df4087\transformed\jetified-play-services-base-17.1.0\res
+com.truecallersdk.truecaller_sdk-jetified-truecaller-sdk-2.7.0-3 C:\Users\pyius\.gradle\caches\transforms-3\8aa69c7b0f05f503ad8e80f3a6f8a9ab\transformed\jetified-truecaller-sdk-2.7.0\res
+com.truecallersdk.truecaller_sdk-jetified-annotation-experimental-1.1.0-4 C:\Users\pyius\.gradle\caches\transforms-3\a6362f1fb79a6245a27920bb99ff99c3\transformed\jetified-annotation-experimental-1.1.0\res
+com.truecallersdk.truecaller_sdk-jetified-play-services-basement-17.1.0-5 C:\Users\pyius\.gradle\caches\transforms-3\ce74e6ee361bf6bf45ba5b7b64afc7b0\transformed\jetified-play-services-basement-17.1.0\res
+com.truecallersdk.truecaller_sdk-jetified-window-java-1.0.0-beta04-6 C:\Users\pyius\.gradle\caches\transforms-3\ed438543a8e9ffa856a2b095c92f0ea3\transformed\jetified-window-java-1.0.0-beta04\res
+com.truecallersdk.truecaller_sdk-main-7 C:\Users\pyius\AppData\Local\Pub\Cache\hosted\pub.dev\truecaller_sdk-0.1.2\android\src\main\res
+com.truecallersdk.truecaller_sdk-profile-8 C:\Users\pyius\AppData\Local\Pub\Cache\hosted\pub.dev\truecaller_sdk-0.1.2\android\src\profile\res
+com.truecallersdk.truecaller_sdk-pngs-9 C:\Users\pyius\Desktop\kumarproject\smarthome\smarthome\build\truecaller_sdk\generated\res\pngs\profile
+com.truecallersdk.truecaller_sdk-resValues-10 C:\Users\pyius\Desktop\kumarproject\smarthome\smarthome\build\truecaller_sdk\generated\res\resValues\profile
+com.truecallersdk.truecaller_sdk-rs-11 C:\Users\pyius\Desktop\kumarproject\smarthome\smarthome\build\truecaller_sdk\generated\res\rs\profile
+com.truecallersdk.truecaller_sdk-mergeProfileResources-12 C:\Users\pyius\Desktop\kumarproject\smarthome\smarthome\build\truecaller_sdk\intermediates\incremental\profile\mergeProfileResources\merged.dir
+com.truecallersdk.truecaller_sdk-mergeProfileResources-13 C:\Users\pyius\Desktop\kumarproject\smarthome\smarthome\build\truecaller_sdk\intermediates\incremental\profile\mergeProfileResources\stripped.dir
+com.truecallersdk.truecaller_sdk-merged_res-14 C:\Users\pyius\Desktop\kumarproject\smarthome\smarthome\build\truecaller_sdk\intermediates\merged_res\profile

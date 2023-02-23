@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.truecallersdk.truecaller_sdk-merged_res-13:/layout/notification_template_part_time.xml",
+        "source": "com.truecallersdk.truecaller_sdk-core-1.6.0-0:/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "com.truecallersdk.truecaller_sdk-merged_res-13:/layout/custom_dialog.xml",
+        "source": "com.truecallersdk.truecaller_sdk-core-1.6.0-0:/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "com.truecallersdk.truecaller_sdk-merged_res-13:/layout/truesdk_privacy_policy_dialog.xml",
+        "source": "com.truecallersdk.truecaller_sdk-jetified-truecaller-sdk-2.7.0-3:/layout/truesdk_privacy_policy_dialog.xml"
+    },
+    {
+        "merged": "com.truecallersdk.truecaller_sdk-merged_res-13:/layout/notification_template_part_chronometer.xml",
+        "source": "com.truecallersdk.truecaller_sdk-core-1.6.0-0:/layout/notification_template_part_chronometer.xml"
+    }
+]
